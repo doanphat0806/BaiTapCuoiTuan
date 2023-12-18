@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+</head>
+<body>
+<h1>Login Form</h1>g
+<table>
+    <tr>
+        <td><label for="userName">UserName:</label></td>
+        <td><input type="text" id="userName" name="userName"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password"></td>
+    </tr>
+    <tr>
+        <td><label for="city">City of <br> Employment:</label></td>
+        <td><input type="text" id="city" name="city"></td>
+    </tr>
+    <tr>
+        <td><label for="webServer">Web server:</label></td>
+        <td>
+            <select id="webServer" name="webServer">
+                <option value="">--Choose a server</option>
+                <option value="james.codegym.vn">james.codegym.vn</option>
+                <option value="Youtube.com">Youtube.com</option>
+                <option value="Facebook.com">Facebook.com</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Please specify <br> your role:</label></td>
+        <td>
+            <input type="checkbox" id="admin" name="admin"> <label for="admin" >Admin</label><br>
+            <input type="checkbox" id="engineer" name="engineer"> <label for="engineer">Engineer</label><br>
+            <input type="checkbox" id="manager" name="manager" > <label for="manager" >Manager</label><br>
+            <input type="checkbox" id="guest" name="guest" > <label for="guest" >Guest</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Single Sign-on <br> to the following:</label></td>
+        <td>
+            <input type="checkbox" id="mail" name="mail"> <label for="mail">Mail</label><br>
+            <input type="checkbox" id="payroll" name="payroll"> <label for="payroll">Payroll</label><br>
+            <input type="checkbox" id="selfService" name="selfService"> <label for="selfService">Self-service</label>
+        </td>
+    </tr>
+    <tr>
+    <tr>
+        <td></td>
+        <td><button>Login</button>
+            <button>Reset</button>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
